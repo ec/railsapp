@@ -15,7 +15,7 @@ WORKDIR /home/demo
 ENV BUNDLE_PATH=/bundle
 
 ADD Gemfile /home/demo/Gemfile
-ADD Gemfile.lock /home/demp/Gemfile.lock
+ADD Gemfile.lock /home/demo/Gemfile.lock
 ADD package.json /home/demo/package.json
 
 RUN bundle install
